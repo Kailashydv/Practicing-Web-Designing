@@ -1,0 +1,162 @@
+/*#2ecc71*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------
+----REUSABLE-------------
+-----------------------*/
+
+html,
+body{
+    font-size: 17px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* HEADINGS */
+h1{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    font-family: sans-serif;
+    font-size: 250%;
+    color: #25a25a;
+    transform: translate(-50%,0);
+    padding: 2px 30px;
+    line-height: 145%;
+    text-align: center;
+    width: 340px;
+    opacity: 0;
+    transition: 0.9s ease;
+    border: 1px solid #2ecc71;
+    font-weight: 100;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.58);
+}
+
+/* Navigation */
+
+header li{
+    display: inline-block;
+    padding:10px 30px;
+    margin-right: 80px;
+    cursor: pointer;
+    font-size: 120%;
+    color: #ffffff;
+    margin-top: 80px;
+    transition: 0.3s ease;
+    letter-spacing: 2px;
+    opacity: 0;
+
+}
+
+header li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #1b7943;
+}
+
+ul{
+    float: right;
+    position: absolute;
+    top:0%;
+    left: 50%;
+}
+
+/*-----------------------
+----HEADER-------------
+-----------------------*/
+
+header{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient( rgba(179, 180, 179, 0.7) ,rgb(0, 0, 0) );
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: all 0.9s ease;
+}
+
+
+header .background{
+    opacity: 0.3;
+    top:0%;
+    left: 0%;
+    transform: translate(-23%,-15%);
+    transition: all 0.9s ease;
+}
+
+header:hover .background{
+    opacity:0.9;
+    transform: translate(-18%,-15%);
+}
+
+/* PHOTOS */
+
+.photo img{
+    border-radius: 50%;
+    width:300px;
+    height: 250px;
+    margin-right: 70px;
+}
+
+.photo{
+    position: absolute;
+    top:35%;
+    left: 20%;
+    opacity: 1;
+    transition: 0.9s ease;
+}
+
+
+
+header .box{
+    position: absolute;
+    top:50%;
+    left: 49%;
+    font-family: sans-serif;
+    font-size: 200%;
+    color: #fff;
+    transform: translate(-50%,0);
+    padding: 2px 30px;
+    line-height: 145%;
+    text-align: center;
+    opacity: 0;
+    background-color: #2ecc71;
+    border-radius: 200px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border: 3px solid #2ecc71;
+}
+
+header .box:hover{
+    background-color: rgba(46, 204, 113, 0);
+}
+
+header:hover .box,
+header:hover h1,
+header:hover li{
+    opacity: 1;
+}
+
+header:hover .photo{
+    opacity:0;
+}
+
+/*-----------------------
+----HEADER-------------
+-----------------------*/
+
+
+
+
+
+

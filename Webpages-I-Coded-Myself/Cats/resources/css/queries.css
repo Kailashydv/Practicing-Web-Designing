@@ -1,0 +1,90 @@
+/*--Breakpoint (widths smaller than 1400px)--*/
+
+@media only screen and (max-width: 1400px){
+   
+    ul{left: 0%;}
+    html,
+    body{
+    font-size: 16px;
+    }
+    
+    .photo img{
+        width: 250px;
+    }
+    .photo{
+    left: 10%;
+    }
+}
+
+/*--Small tablets to big tablets: from 768px to 1023px--*/
+
+@media only screen and (max-width:1023px){
+    html,
+    body{
+    font-size: 14px;
+    }
+    
+    .photo img{
+        width: 230px;
+        height: 190px;
+        margin-right: 40px;
+    }
+    .photo{
+    left:3%;
+    }
+    
+}
+
+/*--Small Phones to small tablets: from 481px to 767px--*/
+
+@media only screen and (max-width:767px){
+    
+    ul li{
+         margin-right: 60px;
+    }
+    html,
+    body{
+    font-size: 13px;
+    }
+    
+    .photo img{
+        width: 200px;
+        height: 170px;
+        margin-right: 20px;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 190px;
+    }
+    .photo{
+    left: 10%;
+     top: 30%;
+    }
+}
+
+
+/*--Small Phones: from 0px to 480px--*/
+
+@media only screen and (max-width:480px){
+    
+     ul li{
+         margin-right: 30px;
+         margin-top: 40px;
+    }
+    html,
+    body{
+    font-size: 12px;
+    }
+    
+    .photo img{
+        width: 200px;
+        height: 180px;
+        margin-right: 15px;
+    }
+    
+    .photo{
+    left: -10%;
+    top: 28%;
+    margin-left: 0px;
+    }
+}
+
